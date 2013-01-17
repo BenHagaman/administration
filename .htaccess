@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /administration
+
+RewriteCond %{REQUEST_URI} ^system.*
+RewriteCond %{REQUEST_URI} !^(index\.php|css|images|js|robots\.txt)
+RewriteRule ^(.*)$ /index.php?/$1 [L] 
+
+RewriteCond %{REQUEST_URI} ^application.*
+RewriteCond %{REQUEST_URI} !^(index\.php|css|images|js|robots\.txt)
+RewriteRule ^(.*) /index.php?/$1 [L] 
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ index.php?/$1 [L] 
+

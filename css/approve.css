@@ -1,0 +1,35 @@
+.pending {
+	/* white */
+	background: white;
+	border-bottom: 1px solid black;
+}
+
+.approved {
+	/* blue */
+	background: #00BFFF;
+	border-bottom: 1px solid black;
+}
+
+.created {
+	/* green */
+	background: #98FB98;
+	border-bottom: 1px solid black;
+}
+
+.error {
+	/* red */
+	background: #FF0000;
+	border-bottom: 1px solid black;
+}
+
+.denied {
+	/* Orange-ish */
+	background: #B8860B;
+	border-bottom: 1px solid black;
+}
+
+.link {
+	background: white;
+	border-bottom: 1px solid black;
+}
+

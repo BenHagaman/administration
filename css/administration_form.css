@@ -1,0 +1,5 @@
+form { margin: 0; display: inline; padding: 0;}
+div .err_msg { display: inline; color: red; }
+div .field_container { margin-bottom: 5px; }
+label { width: 150px; float: left; }
+input .signupbox { margin: 0; display: inline }

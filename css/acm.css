@@ -1,0 +1,62 @@
+div#container {
+	width: 100%;
+	margin: 0px;
+}
+
+div#header {
+	background-color: #0066CC;
+}
+
+div#content {
+	padding: 1em;
+}
+
+#navbig {
+	display: inline;
+	width: 100%;
+}
+
+#navcontainer ul {
+	display: inline-block;
+	position: relative;
+	float: top;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background-color: #036;
+	color: white;
+    font-family: arial, helvecta, sans-serif;
+}
+
+#navcontainer ul li {
+	display: inline;
+}
+
+#navcontainer ul li a {
+	padding: .2em 1em;
+	background-color: #036;
+	color: white;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid black;
+}
+
+#navcontainer ul li a:hover {
+	background-color: #369;
+	color: black;
+}
+
+#message {
+	position: relative;
+	float: right;
+	right: 20px;
+	width: 30%;
+	display: inline-block;
+	margin: 0;
+	padding: 0; 
+	border-width: 1px;
+	border-style: dashed;
+	border-color: red;
+}

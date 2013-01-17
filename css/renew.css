@@ -1,0 +1,25 @@
+.active {
+	background: white;
+	border-bottom: 1px solid black;
+}
+
+.inactive {
+	background: #C98A4B;
+	border-bottom: 1px solid black;
+}
+
+.officer {
+	background: #29AFD6;
+	border-bottom: 1px solid black;
+}
+
+.current {
+	background: #1F88A7;
+	border-bottom: 1px solid black;
+}
+
+.link {
+	background: white;
+	border-bottom: 1px solid black;
+}
+
